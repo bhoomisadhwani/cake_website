@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+.gallery .image{
+    flex: 30%;
+    overflow: hidden;
+    justify-content: center;
+    cursor: pointer;
+}
+.gallery .image img{
+    width: 70%; ;
+    height: 70%; ;
+    transition: 0.4s;
+}
+.gallery .image:hover img{
+    transform: scale(1.4);
+} 
+.body{
+    background-color: palevioletred;
+}
